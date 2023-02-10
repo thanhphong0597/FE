@@ -1,0 +1,12 @@
+.productlist{
+    
+    background-color: yellow;
+    border-radius: 40px;
+    flex-grow:3;
+    min-height: 400px;
+    height: fit-content;
+    flex-basis: 100px;
+    display: grid;
+    gap:10px;
+    grid-template-columns:  repeat(3,auto);
+}

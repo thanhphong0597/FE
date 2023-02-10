@@ -1,0 +1,45 @@
+.cart_table{
+    width: 75%; 
+    margin: 100px auto 0;
+
+    .sanpham{
+        width:400px;
+    }
+    .dongia{
+        width:174px;
+
+    }
+    .soluong{
+        width:230px;
+    }
+    .cart_table_name{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+
+    }
+    .cart_table_quantity{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:none;
+        button{
+            width:20px;
+            background-color: transparent;
+            border: 1px rgba(128, 128, 128, 1) solid ;
+            height:25px;
+        }
+        p{
+            border: 1px rgba(128, 128, 128, 1) solid ;
+            width: 40%;
+            line-height: 24px;
+            border-left: 0;
+            border-right:0;
+        }
+
+    }
+    .center{
+        text-align: center;
+    }
+}
